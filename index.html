@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="tetris.png" type="image/x-icon">
+  <title>Tetris</title>
+  <script defer src="./tetris.js"></script>
+  <style>
+    body {
+      display: grid;
+      height: 100vh;
+      margin: 0;
+      place-items: center;
+      background: #212121;
+    }
+    strong {
+      color: #FFF;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <strong>Puntuación: <span id="score">0</span></strong>
+</body>
+</html>
